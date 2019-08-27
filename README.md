@@ -176,15 +176,15 @@
   > - telegram 관리bot
   >>  - telegram이라는 메신저에서 서버에 간단한 명령어를 던져 서버 상황을 확인할 수 있도록 만든 프로그램
   >>  - bot.Telegram에서 제공하는api를 Lua script로 컨트롤
-  >>  - [telegram-bot 링크](https://github.com/t2sc0m/telegram_bot)
+  >>  - telegram-bot 링크 : https://github.com/t2sc0m/telegram_bot
   > - Docker관련
   >   - DB Monitoring 
   >>    - prometheus + grafana를 사용하여 DB서버를 모니터링 할 수 있는 콘테이너를 작성.
   >>    - Exporter(agent)는 percona에서 제공한 것을 사용.
-  >>    - [pro-gf 링크](https://hub.docker.com/r/adite/pro-gf/)
+  >>    - pro-gf 링크 : https://hub.docker.com/r/adite/pro-gf/
   > - Docker Cli Dashboard 
   >>  - dcs라는 open source의 코드와 기능의 개선/추가
-  >>  - [DCS 링크](https://github.com/t2sc0m/docker_cli_dashboard)
+  >>  - DCS 링크 : https://github.com/t2sc0m/docker_cli_dashboard
   > - InfluxDB + Prometheus + Grafana 로 모니터링 시스템 구축
   > - ansible 도입 
   >>  - 실서버 deploy 환경을 svc + redmine --> git + ansible로 변경
@@ -228,15 +228,15 @@
 ---
 
 ## 개인 프로젝트 및 링크
-> - 홈페이지 : [http://www.atdt01410.com/](http://www.atdt01410.com/)
+> - 홈페이지 : http://www.atdt01410.com/
 > - 텔넷 서비스 : 러시아/중국의 끝없는 해킹 시도로 현재 서비스 중단
 >   - 사설BBS : 2007 ~ 2018
 >   - 머드게임 : 2007 ~ 2015
 > - 미소일기 : 온라인에서 만난 사람들과 함께 재미로 SNS서비스를 만들어봄
 >   - 비용 문제로 현재 서비스 종료 후 백업사이트 운영 중
 >   - 서비스 기간 : 2014.04 ~ 2019.05
->   - [미소일기 위키](https://namu.wiki/w/%EB%AF%B8%EC%86%8C%EC%9D%BC%EA%B8%B0)
->   - [미소일기 대피소](http://www.misodiary.net/)
-> - [깃허브](https://github.com/t2sc0m)
-> - [도커허브](https://cloud.docker.com/u/adite/repository/list)
-> - [링크드인](https://www.linkedin.com/in/tescom/)
+>   - 미소일기 위키 : https://namu.wiki/w/%EB%AF%B8%EC%86%8C%EC%9D%BC%EA%B8%B0
+>   - 미소일기 대피소 : http://www.misodiary.net/
+> - 깃허브 : https://github.com/t2sc0m
+> - 도커허브 : https://cloud.docker.com/u/adite/repository/list
+> - 링크드인 : https://www.linkedin.com/in/tescom/
