@@ -2,7 +2,7 @@
 ![tescom](https://en.gravatar.com/userimage/96759029/aa4308f795041de37cc2fedf0d1071ca?size=128)
 ---
 ## 개인 정보
-- 이름 : 강 민구
+>- 이름 : 강 민구
 - 이메일 : tescom9@naver.com
 - 전화번호 : +81 80-4372-8087
 - 현거주지 : 도쿄
