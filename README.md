@@ -95,7 +95,7 @@
 1. WEB관련 서버
   > - Apache, Nginx, Mysql/MariaDB, Memcached, PHP, Tomcat, Perl, Python 환경의 web관련 서버 구축/튜닝/운용
 
-2. MONITORING서버
+2. 모니터링 서버
   > - 설치형 : nagios, mrtg, cacti, grances, prometheus, zabbix, netdata 등을 사용하여 모니터링 서버를 구축/운용
   > - 외부서비스형 : datadog, newerlic, cloudstat 등의 모니터링 서비스 이용
 
@@ -108,11 +108,10 @@
   >>  세컨드백업데이터의 보존, 복수대의 서버에서 공통으로 사용되는 소스/스크립트의 보관목적의 NFS서버 구축/운용
   > - CIFS서버
   >>  이미지, 동영상 등의 데이터를 보존하고 서비스하는 CIFS서버 운용
+  > - SAMBA서버
+　>> 사내팀별 데이터 저장용 Samba 서버 구축/운용
 
-5. SAMBA서버
-　> 사내팀별 데이터 저장용 Samba 서버 구축/운용
-
-6. DB관련 서버
+5. DB관련 서버
   > - Relational DB
   >   - MySQL/MariaDB semi-sync replication 구축/튜닝/운용
   >   - MariaDB gtid replication 구축/튜닝/운용
@@ -123,18 +122,18 @@
   > - NoSQL 
   >   - Tokyo Cabinet, Tokyo Tyrant(replication), Redis, InfluxDB, ElasticSearch
 
-7. Game관련 서버
+6. Game관련 서버
   > - Python(Django), Virtualenv 구축/운용 
   >>  django는 apache에 wsgi script를 사용해 연동(mod_wsgi) 
 
-8. Network 관련 서버
+7. Network 관련 서버
   > - VPN 서버 : openvpn을 사용해 개발사가 사내의 개발서버에 접속할 수 있도록 구축/운용
   > - Loadbalancer : ipvs / HAProxy / ZenLB를 사용하여 구축/운용
   >   - DNSLB : DNS전용 로드밸런서인 DNSDist 구축/운용
   > - Gateway 서버 : 사내에서 외부 인터넷을 사용할 때 Gateway 서버를 통해 외부와 통신할 수 있도록 구축/운용
   > - DHCP 서버 사내 ip 할당용 DHCP 서버 구축/운용
 
-9. DNS관련
+8. DNS관련
   > - PDNS
   >>  Public 도메인 관리용 서버 운용
   > - TinyDNS (DJDNS)
@@ -142,16 +141,16 @@
   > - IDCF DNS
   >>  Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관하여 운용
   
-10. Virtualization
+9. Virtualization
   > - Esxi / KVM으로 물리서버를 가상화하여 운용
   > - Docker를 도입하여 사내 툴을 docker화하여 운용
   > - DCOS / Kubernetes 도입여부 비교 검증
   >>  현재 마이크로서비스화를 개발팀과 협의하며 진행 중
 
-11. Cloud서비스
+10. Cloud서비스
   > - AWS, GCP, Azure, KTCloud 사용경험 있음
   
-12. Shell Script
+11. Shell Script
   > - 주로 bash를 사용하며 필요에 따라 python, perl 등을 사용
   >   - 백업
   >>    지정된 디렉토리, 파일을 압축해 로컬과 NFS에 보존하고, 서버의 기본적인 정보(process list, df 등)를 관리자 메일로 송신하는 셸 스크립트. 
@@ -168,7 +167,7 @@
   >>    모니터링용 스크립트 (문제가 있으면 slack에게 메세지 보내도록)
   >>    등의 운용에 필요한 스크립트 제작 가능.
 
-13. 만든 것 & Open Source 참가
+12. 만든 것 & Open Source 참가
   > - telegram 관리bot
   >>  telegram이라는 메신저에서 서버에 간단한 명령어를 던져 서버 상황을 확인할 수 있도록 만든 프로그램
   >>  bot.Telegram에서 제공하는api를 Lua script로 컨트롤
@@ -185,7 +184,7 @@
   > - ansible 도입 
   >>  실서버 deploy 환경을 svc + redmine --> git + ansible로 변경
 
-14. ETC
+13. ETC
   > - Windows Server 2003 DNS서버 운용
   > - IBM NOTES 그룹웨어 설정/운용
   > - Git Repository(git, gitlab), OwnCloud, Redmine 서버 구축/운용
@@ -196,7 +195,7 @@
   >>  HP : iLO , DELL : iDRAC
   > - GlusterFS 도입 준비 중
 
-15. 네트웍기기 관련
+14. 네트웍기기 관련
   > - Cisco L2SW, Firewall, VPN, WiFi장비 운용
   > - HP, Dell L2SW 설정/운용
   >>  LACP, Stack 설정
