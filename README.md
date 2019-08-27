@@ -13,63 +13,66 @@
 > - 재직기간 : 2015.08 ~ 현재
 > - 직   위 : 인프라팀장
 > - 한 일
->  ```script
->  웹 서비스에 필요한 시스템 설계/구축/운용
->  레거시 시스템의 교체/업그레이드
->  작업 스케줄/비용 관리
->  오픈소스 도입으로 운용 프로세스 변경
->  ```
+>   ```script
+>   웹 서비스에 필요한 시스템 설계/구축/운용
+>   레거시 시스템의 교체/업그레이드
+>   작업 스케줄/비용 관리
+>   오픈소스 도입으로 운용 프로세스 변경
+>   ```
 
 
 ### 주식회사 ANNEX
-- 재직기간 : 2015.07 ~ 2015.08 (1개월)
-- 직   위 : 계약사원
-- 한 일
-```script
-Asakusa Games에서 서비스하던 게임의 인프라를 온프레미스 환경에서 AWS로 이전하고 구성/운영방법 등의 관련정보 인수인계
-```
+> - 재직기간 : 2015.07 ~ 2015.08 (1개월)
+> - 직   위 : 계약사원
+> - 한 일
+>   ```script
+>   Asakusa Games에서 서비스하던 게임의 인프라를 온프레미스 환경에서 AWS로 이전하고 구성/운영방법 등의 관련정보 인수인계
+>   ```
 
 ### 주식회사 ROC Works / Asakusa Games
-- 재직기간 : 2009.10 ~ 2015.06 (5년 9개월)
-- 직   위 : 인프라팀장
-- 한 일
-```script
-게임 타이틀별 네트웍/디비/서버 구입/설계/구축/운용/관리
-작업 스케줄/외부업체/비용 관리
-```
+> - 재직기간 : 2009.10 ~ 2015.06 (5년 9개월)
+> - 사명변경 : 2012.08 ROC Works --> Asakusa Games
+> - 직   위 : 인프라팀장
+> - 한 일
+>   ```script
+>   게임 타이틀별 네트웍/디비/서버 구입/설계/구축/운용/관리
+>   작업 스케줄/외부업체/비용 관리
+>   ```
 
 ### 주식회사 디지털 대성
-- 재직기간 : 2007.07 ~ 2009.09 (2년 3개월)
-- 직   위 : 사원
-- 한 일
-```script
-대성N스쿨(직영/분원)/다수인/리딩게임/제넥스 등의 사이트 구축/운용
-```
+> - 재직기간 : 2007.07 ~ 2009.09 (2년 3개월)
+> - 직   위 : 사원
+> - 한 일
+>   ```script
+>   대성N스쿨(직영/분원)/다수인/리딩게임/제넥스 등의 사이트 구축/운용
+>   ```
 ---
 
 ## 보유 역량
 0. OS
-  > Linux (CentOS/Ubuntu) 
+  > - Linux (CentOS/Ubuntu) 
 1. WEB관련 서버
-  > Apache, Nginx, Mysql/MariaDB, Memcached, PHP, Tomcat, Perl, Python 환경의 web관련 서버 구축/튜닝/운용
+  > - Apache, Nginx, Mysql/MariaDB, Memcached, PHP, Tomcat, Perl, Python 환경의 web관련 서버 구축/튜닝/운용
 2. MONITORING서버
-  > nagios, mrtg, cacti, grances, prometheus, zabbix, netdata 등을 사용하여 모니터링 서버를 구축/운용
-  > datadog, newerlic, cloudstat 등의 모니터링 서비스 이용
+  > - 설치형 : nagios, mrtg, cacti, grances, prometheus, zabbix, netdata 등을 사용하여 모니터링 서버를 구축/운용
+  > - 외부서비스형 : datadog, newerlic, cloudstat 등의 모니터링 서비스 이용
 3. LOG서버
-  > GAME LOG를 하나의 서버로 관리할 수 있도록 LOG서버를 구축/운용
-  >> Logstash, Elastic Search, Kibana를 사용해 실시간 Log 분석 서버를 구축/운용
-4. NFS서버
-  > 세컨드백업데이터의 보존, 복수대의 서버에서 공통으로 사용되는 소스/스크립트의 보관목적의 NFS서버 구축/운용
+  > - GAME LOG를 하나의 서버로 관리할 수 있도록 LOG서버를 구축/운용
+  >>  Logstash, Elastic Search, Kibana를 사용해 실시간 Log 분석 서버를 구축/운용
+4. Storage관련
+  > - NFS/CIFS서버
+  >> 세컨드백업데이터의 보존, 복수대의 서버에서 공통으로 사용되는 소스/스크립트의 보관목적의 NFS서버 구축/운용
+  >> 이미지, 동영상 등의 데이터를 보존하고 서비스하는 CIFS서버 운용
 5. SAMBA서버
 　> 사내팀별 데이터 저장용 Samba 서버 구축/운용
 6. DB관련 서버
-  - Relational DB
-    > MySQL/MariaDB semi-sync replication 구축/튜닝/운용
-    > MariaDB gtid replication 구축/튜닝/운용
-    > MySQL/MariaDB semi-sync replication master HA구축/운용
-    >> DRBD + HearBeat
-    >> MHA
-    > MariaDB Galera Cluster
+  > - Relational DB
+  >   - MySQL/MariaDB semi-sync replication 구축/튜닝/운용
+  >   - MariaDB gtid replication 구축/튜닝/운용
+  >   - MySQL/MariaDB semi-sync replication master HA구축/운용
+  >> DRBD + HearBeat
+  >> MHA
+  >   - MariaDB Galera Cluster
 NoSQL 
 Tokyo Cabinet, Tokyo Tyrant(replication), Redis, InfluxDB, ElasticSearch
 7. Game관련 서버
