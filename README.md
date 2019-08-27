@@ -147,13 +147,13 @@
   >>  - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관하여 운용
   
 9. Virtualization
-  > - Esxi / KVM으로 물리서버를 가상화하여 운용
+  > - ESXi / KVM으로 물리서버를 가상화하여 운용
   > - Docker를 도입하여 사내 툴을 docker화하여 운용
   > - DCOS / Kubernetes 도입여부 비교 검증
   >>  - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
 
 10. Cloud서비스
-  > - AWS, GCP, Azure, KTCloud 사용경험 있음
+  > - AWS, GCP, Azure, KTCloud에서 서버 구축경험 있음
   
 11. Shell Script
   > - 주로 bash를 사용하며 필요에 따라 python, perl 등을 사용
