@@ -95,7 +95,7 @@
 ## 보유 역량
 0. OS
   > - Linux (CentOS/Ubuntu) 
-  >> 커널 튜닝 
+  >>  - 커널 튜닝 
 
 1. WEB관련 서버
   > - Apache, Nginx, Mysql/MariaDB, Memcached, PHP, Tomcat, Perl, Python 환경의 web관련 서버 구축/튜닝/운용
@@ -106,15 +106,15 @@
 
 3. LOG서버
   > - GAME LOG를 하나의 서버로 관리할 수 있도록 LOG서버를 구축/운용
-  >>  Logstash, Elastic Search, Kibana를 사용해 실시간 Log 분석 서버를 구축/운용
+  >>  - Logstash, Elastic Search, Kibana를 사용해 실시간 Log 분석 서버를 구축/운용
 
 4. Storage관련
   > - NFS서버
-  >>  세컨드백업데이터의 보존, 복수대의 서버에서 공통으로 사용되는 소스/스크립트의 보관목적의 NFS서버 구축/운용
+  >>  - 세컨드백업데이터의 보존, 복수대의 서버에서 공통으로 사용되는 소스/스크립트의 보관목적의 NFS서버 구축/운용
   > - CIFS서버
-  >>  이미지, 동영상 등의 데이터를 보존하고 서비스하는 CIFS서버 운용
+  >>  - 이미지, 동영상 등의 데이터를 보존하고 서비스하는 CIFS서버 운용
   > - SAMBA서버
-　>> 사내팀별 데이터 저장용 Samba 서버 구축/운용
+　>>  - 사내팀별 데이터 저장용 Samba 서버 구축/운용
 
 5. DB관련 서버
   > - Relational DB
@@ -129,7 +129,7 @@
 
 6. Game관련 서버
   > - Python(Django), Virtualenv 구축/운용 
-  >>  django는 apache에 wsgi script를 사용해 연동(mod_wsgi) 
+  >>  - django는 apache에 wsgi script를 사용해 연동(mod_wsgi) 
 
 7. Network 관련 서버
   > - VPN 서버 : openvpn을 사용해 개발사가 사내의 개발서버에 접속할 수 있도록 구축/운용
@@ -140,17 +140,17 @@
 
 8. DNS관련
   > - PDNS
-  >>  Public 도메인 관리용 서버 운용
+  >>  - Public 도메인 관리용 서버 운용
   > - TinyDNS (DJDNS)
-  >>  Private 도메인 관리용 서버 구축/운용
+  >>  - Private 도메인 관리용 서버 구축/운용
   > - IDCF DNS
-  >>  Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관하여 운용
+  >>  - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관하여 운용
   
 9. Virtualization
   > - Esxi / KVM으로 물리서버를 가상화하여 운용
   > - Docker를 도입하여 사내 툴을 docker화하여 운용
   > - DCOS / Kubernetes 도입여부 비교 검증
-  >>  현재 마이크로서비스화를 개발팀과 협의하며 진행 중
+  >>  - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
 
 10. Cloud서비스
   > - AWS, GCP, Azure, KTCloud 사용경험 있음
@@ -158,52 +158,52 @@
 11. Shell Script
   > - 주로 bash를 사용하며 필요에 따라 python, perl 등을 사용
   >   - 백업
-  >>    지정된 디렉토리, 파일을 압축해 로컬과 NFS에 보존하고, 서버의 기본적인 정보(process list, df 등)를 관리자 메일로 송신하는 셸 스크립트. 
-  >>    파티션 용량이 90%이상이거나 백업 에러 발생시에 메일 제목에 표시
+  >>    - 지정된 디렉토리, 파일을 압축해 로컬과 NFS에 보존하고, 서버의 기본적인 정보(process list, df 등)를 관리자 메일로 송신하는 셸 스크립트. 
+  >>    - 파티션 용량이 90%이상이거나 백업 에러 발생시에 메일 제목에 표시
   >   - 통계
-  >>    게임 내의 결제내역을 로그에서 추출해 일/아이템/유저마다의 매출 계산을 하는 스크립트
+  >>    - 게임 내의 결제내역을 로그에서 추출해 일/아이템/유저마다의 매출 계산을 하는 스크립트
   >   - 소스배포 (최근에는 ansible을 사용)
-  >>    개발 서버에서 실서버에 소스를 배포하는 GUI스크립트
+  >>    - 개발 서버에서 실서버에 소스를 배포하는 GUI스크립트
   >   - 운용 관련
-  >>    Memcached bakcup & restore 스크립트
-  >>    서버에 HOSTNAME만으로 자동 접속되는 스크립트 (ansible 나오기 전에 관리용으로 사용)
-  >>    KVM 가상서버 생성 대화식 스크립트
-  >>    물리/가상 서버 초기설정 대화식 스크립트
-  >>    모니터링용 스크립트 (문제가 있으면 slack에게 메세지 보내도록)
-  >>    등의 운용에 필요한 스크립트 제작 가능.
+  >>    - Memcached bakcup & restore 스크립트
+  >>    - 서버에 HOSTNAME만으로 자동 접속되는 스크립트 (ansible 나오기 전에 관리용으로 사용)
+  >>    - KVM 가상서버 생성 대화식 스크립트
+  >>    - 물리/가상 서버 초기설정 대화식 스크립트
+  >>    - 모니터링용 스크립트 (문제가 있으면 slack에게 메세지 보내도록)
+  >>    등 운용에 필요한 스크립트 제작 가능.
 
 12. 만든 것 & Open Source 참가
   > - telegram 관리bot
-  >>  telegram이라는 메신저에서 서버에 간단한 명령어를 던져 서버 상황을 확인할 수 있도록 만든 프로그램
-  >>  bot.Telegram에서 제공하는api를 Lua script로 컨트롤
-  >> [telegram-bot 링크](https://github.com/t2sc0m/telegram_bot)
+  >>  - telegram이라는 메신저에서 서버에 간단한 명령어를 던져 서버 상황을 확인할 수 있도록 만든 프로그램
+  >>  - bot.Telegram에서 제공하는api를 Lua script로 컨트롤
+  >>  - [telegram-bot 링크](https://github.com/t2sc0m/telegram_bot)
   > - Docker관련
   >   - DB Monitoring 
-  >>    prometheus + grafana를 사용하여 DB서버를 모니터링 할 수 있는 콘테이너를 작성.
-  >>    Exporter(agent)는 percona에서 제공한 것을 사용.
-  >>    [pro-gf 링크](https://hub.docker.com/r/adite/pro-gf/)
+  >>    - prometheus + grafana를 사용하여 DB서버를 모니터링 할 수 있는 콘테이너를 작성.
+  >>    - Exporter(agent)는 percona에서 제공한 것을 사용.
+  >>    - [pro-gf 링크](https://hub.docker.com/r/adite/pro-gf/)
   > - Docker Cli Dashboard 
-  >>  dcs라는 open source의 코드와 기능의 개선/추가
-  >>  [DCS 링크](https://github.com/t2sc0m/docker_cli_dashboard)
+  >>  - dcs라는 open source의 코드와 기능의 개선/추가
+  >>  - [DCS 링크](https://github.com/t2sc0m/docker_cli_dashboard)
   > - InfluxDB + Prometheus + Grafana 로 모니터링 시스템 구축
   > - ansible 도입 
-  >>  실서버 deploy 환경을 svc + redmine --> git + ansible로 변경
+  >>  - 실서버 deploy 환경을 svc + redmine --> git + ansible로 변경
 
 13. ETC
   > - Windows Server 2003 DNS서버 운용
   > - IBM NOTES 그룹웨어 설정/운용
   > - Git Repository(git, gitlab), OwnCloud, Redmine 서버 구축/운용
   > - Openresty(nginx) + lua script로 리버스 프록시 구축 
-  >>  도메인을 변경하여 전달하는 reverse proxy 구축/운용
+  >>  - 도메인을 변경하여 전달하는 reverse proxy 구축/운용
   > - Apache Solr replication 설정/운용
   > - 물리서버 매니지먼트설정 
-  >>  HP : iLO , DELL : iDRAC
+  >>  - HP : iLO , DELL : iDRAC
   > - GlusterFS 도입 준비 중
 
 14. 네트웍기기 관련
   > - Cisco L2SW, Firewall, VPN, WiFi장비 운용
   > - HP, Dell L2SW 설정/운용
-  >>  LACP, Stack 설정
+  >>  - LACP, Stack 설정
   > - Yamaha VPN장비 설정/운용
   > - Barracuda 스팸필터링 솔루션 운용
   > - BIG-IP 설정/운용
