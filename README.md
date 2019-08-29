@@ -6,6 +6,7 @@
 > - 전화번호 : 
 > - 현거주지 : 도쿄
 > - 최종학력 : 
+> - 언   어 : 일본어 비즈니스 메일/회화 가능
 ---
 
 ## 경력
@@ -94,7 +95,7 @@
 ## 보유 역량
 0. OS
   > - Linux (CentOS/Ubuntu) 
-  >>  - 커널 튜닝 
+  >>  - 서버 종류(web, db, proxy, ipvs, storage 등)별 필요한 커널 튜닝 
 
 1. WEB관련 서버
   > - Apache, Nginx, Mysql/MariaDB, Memcached, PHP, Tomcat, Perl, Python 환경의 web관련 서버 구축/튜닝/운용
@@ -191,6 +192,7 @@
   >>  - 실서버 deploy 환경을 svc + redmine --> git + ansible로 변경
 
 13. ETC
+  > - 물리/소프트웨어에서 발생하는 트러블슈팅 가능
   > - Windows Server 2003 DNS서버 운용
   > - IBM NOTES 그룹웨어 설정/운용
   > - Git Repository(git, gitlab), OwnCloud, Redmine 서버 구축/운용
