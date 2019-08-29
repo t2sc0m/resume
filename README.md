@@ -13,6 +13,7 @@
 ### 유한회사 Colon
 > - 재직기간 : 2015.08 ~ 현재
 > - 직   위 : 인프라팀장
+> - 사업내용 : 웹 SNS, 게임플랫폼 
 > - 한 일
 >   ```script
 >   웹 서비스에 필요한 시스템 설계/구축/운용
@@ -24,6 +25,7 @@
 ### 주식회사 ANNEX
 > - 재직기간 : 2015.07 ~ 2015.08 (1개월)
 > - 직   위 : 계약사원
+> - 사업내용 : 게임 및 웹서비스
 > - 한 일
 >   ```script
 >   Asakusa Games에서 서비스하던 게임의 인프라를 온프레미스 환경에서 AWS로 이전하고 구성/운영방법 등의 관련정보 인수인계
@@ -33,6 +35,7 @@
 > - 재직기간 : 2009.10 ~ 2015.06 (5년 9개월)
 > - 사명변경 : 2012.08 ROC Works --> Asakusa Games
 > - 직   위 : 인프라팀장
+> - 사업내용 : 게임 퍼블리싱/개발
 > - 한 일
 >   ```script
 >   게임 타이틀별 네트웍/디비/서버 구입/설계/구축/운용/관리
@@ -43,6 +46,7 @@
 ### 주식회사 Digital Daesung
 > - 재직기간 : 2007.07 ~ 2009.09 (2년 3개월)
 > - 직   위 : 사원
+> - 사업내용 : 초/중/고/재수 학원
 > - 한 일
 >   ```script
 >   대성N스쿨(직영/분원)/다수인/리딩게임/제넥스 등의 사이트 구축/운용
@@ -123,7 +127,8 @@
   >   - MySQL/MariaDB semi-sync replication master HA구축/운용
   >     - DRBD + HearBeat
   >     - MHA
-  >   - MariaDB Galera Cluster
+  >   - MariaDB Galera Cluster 구축/검증
+  >   - MAX-Scale 검증
   > - NoSQL 
   >   - Tokyo Cabinet, Tokyo Tyrant(replication), Redis, InfluxDB, ElasticSearch
 
