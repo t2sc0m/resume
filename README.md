@@ -158,9 +158,9 @@
   >>  - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
 
 10. Cloud서비스
-  > - AWS, GCP, Azure, KTCloud에서 서버 구축경험 있음
+  > - AWS, GCP, Azure, KTCloud에서 서버 구축 경험 있음
   >> - 게임서버 온프레 --> AWS 이전
-  >> - 웹서비스 회사 50대 정도의 소규모 인프라 온프레 --> AWS 이전 프로젝트 진행 중
+  >> - 웹서비스 회사 50대 정도의 소규모 인프라 온프레 --> AWS 이전 프로젝트 상담
   
 11. Shell Script
   > - 주로 bash를 사용하며 필요에 따라 python, perl 등을 사용
@@ -204,9 +204,14 @@
   > - Openresty(nginx) + lua script로 리버스 프록시 구축 
   >>  - 도메인을 변경하여 전달하는 reverse proxy 구축/운용
   > - Apache Solr replication 설정/운용
-  > - 물리서버 매니지먼트설정 
+  > - 물리서버 매니지먼트 설정/운용 
   >>  - HP : iLO , DELL : iDRAC
-  > - GlusterFS 도입 준비 중
+  > - 현재 운영 중인 서비스 규모
+  >>  - DAU : 25 ~ 27만
+  >>  - MAU : 60 ~ 65만
+  >>  - 외부 트래픽 : 650 ~ 700 Mbps
+  >>  - 서버 규모 : 약 300대 이상
+  > - GlusterFS 도입 검증 진행중
 
 14. 네트웍기기 관련
   > - Cisco L2SW, Firewall, VPN, WiFi장비 운용
