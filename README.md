@@ -153,13 +153,13 @@
   >   ```
   > - SAMBA서버
   >   ```script
-　>   - 사내팀별 데이터 저장용 Samba 서버 구축/운용
+　>   - 사내 팀 별 데이터 저장용 Samba 서버 구축/운용
   >   ```
 
 6. Game관련 서버
   > - Python(Django), Virtualenv 구축/운용 
   >   ```script
-  >>  - django는 apache에 wsgi script를 사용해 연동(mod_wsgi) 
+  >   - django는 apache에 wsgi script를 사용해 연동(mod_wsgi) 
   >   ```
 
 7. Network 관련 서버
