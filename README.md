@@ -18,7 +18,7 @@
 >   ```script
 >   웹 서비스에 필요한 시스템 설계/구축/운용
 >   레거시 시스템의 교체/업그레이드
->   작업 스케줄/비용 관리
+>   작업 스케줄 및 코스트(비용/인적) 관리
 >   오픈소스(docker, ansible 등) 도입으로 운용 프로세스 변경
 >   ```
 
@@ -99,7 +99,9 @@
 ## 보유 역량
 0. OS
   > - Linux (CentOS/Ubuntu) 
-  >>  - 서버 종류(web, db, proxy, ipvs, storage 등)별 필요한 커널 튜닝 
+  >   ```script
+  >   서버 종류(web, db, proxy, ipvs, storage 등)별 필요한 커널 튜닝 
+  >   ```
 
 1. WEB관련 서버
   > - Apache, Nginx, Mysql/MariaDB, Memcached, PHP, Tomcat, Perl, Python 환경의 web관련 서버 구축/튜닝/운용
