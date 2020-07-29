@@ -28,7 +28,7 @@
 > - 事業内容 : ゲーム、ウェブサービス
 > - やったこと
 >   ```script
->   Asakusa Gamesでサービスしていたゲームのインフラをオンプレミス環境からAWSに移管と構成/運用方法などの関連情報の引き続き
+>   Asakusa Gamesでサービスしていたゲームのインフラをオンプレミス環境からAWSに移管と構成/運用方法などの関連情報の引継ぎ
 >   ```
 
 ### 株式会社 ROC Works / Asakusa Games
@@ -49,7 +49,8 @@
 > - 事業内容 : 小/中/高校と再受験の学園 
 > - やったこと
 >   ```script
->   Daesung N School/Dasooin/Readind Game/ Genex などの学園ブランドのサイトの構築/運用
+>   Daesung N School/Dasooin/Reading Game/Genex などの学園ブランド別サイト用のサーバをオンプレ環境で構築/運用
+>   ネットワーク機器の設定/運用/配線
 >   ```
 ---
 
