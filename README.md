@@ -115,7 +115,7 @@
   >   - MySQL/MariaDB semi-sync replication 구축/튜닝/운용
   >   - MariaDB gtid replication 구축/튜닝/운용
   >   - MySQL/MariaDB semi-sync replication master HA구축/운용
-  >   -  - DRBD + HearBeat
+  >   -  - DRBD + HeartBeat
   >   -  - MHA
   >   - MariaDB Galera Cluster 구축/검증
   >   - MAX-Scale 검증
