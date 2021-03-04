@@ -124,6 +124,12 @@
   >   ```script
   >   - Tokyo Cabinet, Tokyo Tyrant(replication), Redis, InfluxDB, ElasticSearch
   >   ```
+  > - Cache sharding
+  >   ```script
+  >   - mcrouter를 이용하여 단일 노드로 사용하던 cache서버 구성을 sharding + replicated로 변경
+  >   - mcrouter 이중화
+  >   - 노드 장애 복구 또는 노드 추가시 cold cache warm up 구성
+  >   ```
 
 3. 모니터링 서버
   > - 설치형 설계/구축/운용
@@ -244,6 +250,10 @@
   >   - telegram-bot 링크 : https://github.com/t2sc0m/telegram_bot
   >   ```
   > - Docker관련
+  >   - Local 개발환경구축
+  >   ```script
+  >   - 각 개발자 로컬에서 컨테이너로 스테이징 환경을 구축할 수 있도록 개발환경 구축
+  >   ```
   >   - DB Monitoring 
   >   ```script
   >   - prometheus + grafana를 사용하여 DB서버를 모니터링 할 수 있는 컨테이너를 작성.
@@ -257,7 +267,7 @@
   >   ```
   > - ansible 도입 
   >   ```script
-  >   - 실서버 deploy 환경을 svc + redmine --> git + ansible로 변경
+  >   - 실서버 deploy 환경을 svc + redmine + capistrano에서 git + ansible로 변경
   >   ```
 
 13. ETC
