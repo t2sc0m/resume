@@ -124,6 +124,13 @@
   > - NoSQL
   >   ```script
   >   - Tokyo Cabinet, Tokyo Tyrant(replication), Redis, InfluxDB, ElasticSearch
+  >   - Apache Solr(replication), versionアップグレードの検証
+  >   ```
+  > - Cache sharding
+  >   ```script
+  >   - mcrouterを使ってstand aloneだったcacheサーバの構成をsharding + replicaに変更
+  >   - mcrouterの冗長化
+  >   - ノードの障害復旧、ノードの追加時にcold cache warm upの構成
   >   ```
 
 3. モニタリングサーバ
@@ -134,7 +141,7 @@
   >   ```
   > - 外部サービス
   >   ```script
-  >   - datadog, newerlic, cloudstat などのモニタリングサービスを利用
+  >   - newrelic, cloudstat などのモニタリングサービスを利用
   >   ```
 
 4. LOGサーバ
@@ -160,7 +167,7 @@
 6. Game関連サーバ
   > - Python(Django), Virtualenv 構築/運用 
   >   ```script
-  >   - django는 apache에 wsgi scriptを使って連動(mod_wsgi) 
+  >   - djangoはapacheにwsgi scriptを使って連動(mod_wsgi) 
   >   ```
 
 7. Network関連サーバ
@@ -210,10 +217,30 @@
   >   ```script
   >   - ゲームサーバをオンプレからAWSに移管
   >   - WEBサービス会社の５０台規模のインフラをオンプレからAWSに移管するプロジェックトの相談
+  >   - GCPのbig query分析用のシステム構築
+  >   - Azureにテレワーク用のトンネリングサーバを構築
+  >   ```
+
+11. DevOps Tool
+  > - Terraform
+  >   ```script
+  >   - LAMP環境のウェブサーバをterraformでAWSに構築
+  >   ```
+  > - Ansible
+  >   ```script
+  >   - kvm仮想サーバにいつも同じ環境を作れるようにplaybook用のyamlコードを作成
+  >   ```
+  > - ServerSpec
+  >   ```script
+  >   - 上で構築したサーバの検証ができるコードを作成
+  >   ```
+  > - Vagrant
+  >   ```script
+  >   - ローカルテスト用の環境を構築するコードを作成＆検証して社内に共有
   >   ```
   
-11. Shell Script
-  > - 大体bashを使って必要によってpython, perlなどを使う
+12. システム運用に必要なツールの開発
+  > - メインはbashを使って必要によってpython, perlなどを使う
   > - Backup
   >   ```script
   >   - 指定したdirectory, fileを圧縮してローカルとNFSに保存して、サーバの基本的情報(process list, df など)を管理者メールに送信する
@@ -238,7 +265,7 @@
   >     など運用に必要なscriptを制作可能
   >   ```
 
-12. 作ったもの & Open Source 参加
+13. 作ったもの & Open Source 参加
   > - telegram 管理bot
   >   ```script
   >   - telegramでサーバに簡単なコメンドを投げサーバの状況把握ができるように作ったプログラム
@@ -262,8 +289,8 @@
   >   - 本番サーバのdeploy環境をsvc + redmine --> git + ansibleに変更
   >   ```
 
-13. ETC
-  > - 物理/ソフトウェアから発生するtrouble shooting可能
+14. ETC
+  > - 物理やソフトウェアから発生するtrouble shooting可能
   > - Windows Server 2003でDNSサーバ運用
   > - IBM NOTES Groupware 設定/運用
   > - Git Repository(git, gitlab), OwnCloud, Redmine サーバ 構築/運用
@@ -290,7 +317,7 @@
   >   - 検証して本番に適用/運用
   >   ```
 
-14. ネットワーク機器関連
+15. ネットワーク機器関連
   > - Cisco L2SW, Firewall, VPN, WiFi運用
   > - HP, Dell L2SW 設定/運用
   >   ```script
@@ -306,9 +333,18 @@
 ---
 
 ## 資格書
-> - 情報処理産業技師
-> - SCSA (Sun Certified System Administrator)
-> - OCP-DBA (Oracle Certified Professional-DBA)
 > - JLPT N2 (日本語能力試験)
+> - 情報処理産業技師
+>   - 組織名 : 韓国産業人力管理公団
+>   - 取得日 : 2000.07.31
+> - SCSA (Sun Certified System Administrator)
+>   - 組織名: Sun Microsystems
+>   - 取得日 : 2006.12.30
+> - OCP-DBA (Oracle Certified Professional-DBA)
+>   - 組織名 : Oracle
+>   - 取得日 : 2007.03.05
+> - JLPT N2 （日本語能力試験）
+>   - 組織名 : JEES
+>   - 取得日 : 2012.01.27
 ---
 

@@ -123,12 +123,13 @@
   > - NoSQL
   >   ```script
   >   - Tokyo Cabinet, Tokyo Tyrant(replication), Redis, InfluxDB, ElasticSearch
+  >   - Apache Solr(replication), 버전 업그레이드 검증
   >   ```
   > - Cache sharding
   >   ```script
-  >   - mcrouter를 이용하여 단일 노드로 사용하던 cache서버 구성을 sharding + replicated로 변경
+  >   - mcrouter를 이용하여 stand alone으로 사용하던 cache서버 구성을 sharding + replica로 변경
   >   - mcrouter 이중화
-  >   - 노드 장애 복구 또는 노드 추가시 cold cache warm up 구성
+  >   - 노드 장애 복구, 노드 추가시 cold cache warm up 구성
   >   ```
 
 3. 모니터링 서버
@@ -139,7 +140,7 @@
   >   ```
   > - 외부서비스형 
   >   ```script
-  >   - datadog, newerlic, cloudstat 등의 모니터링 서비스 이용
+  >   - newrelic, cloudstat 등의 모니터링 서비스 이용
   >   ```
 
 4. LOG서버
@@ -215,9 +216,29 @@
   >   ```script
   >   - 게임서버 온프레 --> AWS 이전
   >   - 웹서비스 회사 50대 정도의 소규모 인프라 온프레 --> AWS 이전 프로젝트 상담
+  >   - GCP의 빅쿼리 분석용 시스템 구축
+  >   - Azure에 재택근무용 터널링서버 구축 
   >   ```
   
-11. 시스템 운용 툴 개발
+11. DevOps 툴 사용
+  > - Terraform
+  >   ```script
+  >   - LAMP환경의 웹서버를 terraform을 사용하여 AWS에 구축
+  >   ```
+  > - Ansible
+  >   ```script
+  >   - kvm 가상서버에 언제나 같은 환경을 만들 수 있도록 playbook용 yaml코드를 작성 
+  >   ```
+  > - ServerSpec
+  >   ```script
+  >   - 위에서 구축한 서버를 검증할 수 있는 코드를 작성
+  >   ```
+  > - Vagrant
+  >   ```script
+  >   - 로컬 테스트 환경구축용 코드를 작성/검증하고 회사 내에 공유
+  >   ```
+
+12. 시스템 운용 툴 개발
   > - 주로 bash를 사용하며 필요에 따라 python, perl 등을 사용
   > - 백업
   >   ```script
@@ -242,7 +263,7 @@
   >     등 운용에 필요한 스크립트 제작 가능.
   >   ```
 
-12. 만든 것 & Open Source 참가
+13. 만든 것 & Open Source 참가
   > - telegram 관리bot
   >   ```script
   >   - telegram이라는 메신저에서 서버에 간단한 명령어를 던져 서버 상황을 확인할 수 있도록 만든 프로그램
@@ -270,7 +291,7 @@
   >   - 실서버 deploy 환경을 svc + redmine + capistrano에서 git + ansible로 변경
   >   ```
 
-13. ETC
+14. ETC
   > - 물리/소프트웨어에서 발생하는 트러블슈팅 가능
   > - Windows Server 2003 DNS서버 운용
   > - IBM NOTES 그룹웨어 설정/운용
@@ -279,7 +300,6 @@
   >   ```script
   >   - 도메인을 변경하여 전달하는 reverse proxy 구축/운용
   >   ```
-  > - Apache Solr replication 설정/운용
   > - 물리서버 매니지먼트 설정/운용 
   >   ```script
   >   - HP : iLO , DELL : iDRAC
@@ -299,7 +319,7 @@
   >   - 실서버 환경 설계/구축/운용
   >   ```
 
-14. 네트웍기기 관련
+15. 네트웍기기 관련
   > - Cisco L2SW, Firewall, VPN, WiFi장비 운용
   > - HP, Dell L2SW 설정/운용
   >   ```script
@@ -331,14 +351,16 @@
 
 ## 개인 프로젝트 및 링크
 > - 홈페이지 : http://www.atdt01410.com/
-> - 텔넷 서비스 : 러시아/중국의 끝없는 해킹 시도로 현재 서비스 중단
->   - 사설BBS : 2007 ~ 2018
->   - 머드게임 : 2007 ~ 2015
+> - 텔넷 서비스(2007~ ) 
+>   - 사설BBS : bbs.atdt01410.com
+>   - 머드게임 : jura.atdt01410.com 9999
 > - 미소일기 : 온라인에서 만난 사람들과 함께 재미로 SNS서비스를 만들어봄
->   - 비용 문제로 현재 서비스 종료 후 백업사이트 운영 중
+>   - 비용 문제로 현재 서비스 종료 
 >   - 서비스 기간 : 2014.04 ~ 2019.05
 >   - 미소일기 위키 : https://namu.wiki/w/%EB%AF%B8%EC%86%8C%EC%9D%BC%EA%B8%B0
->   - 미소일기 대피소 : http://www.misodiary.net/
+> - 온라인 강좌 : 
+>   - 쉘 스크립트 기초편 : https://www.inflearn.com/course/리눅스-bash-shellscript?inst=3abb134b
+>   - 쉘 스크립트 실전편 : https://www.inflearn.com/course/리눅스-bash-실전편?inst=dda7aeef
 > - 깃허브 : https://github.com/t2sc0m
 > - 도커허브 : https://cloud.docker.com/u/adite/repository/list
 > - 링크드인 : https://www.linkedin.com/in/tescom/
