@@ -302,7 +302,7 @@
   >   ```
   > - 물리서버 매니지먼트 설정/운용 
   >   ```script
-  >   - HP : iLO , DELL : iDRAC
+  >   - HP : iLO , DELL : iDRAC , SM : ipmitool
   >   ```
   > - 현재 운영 중인 서비스 규모
   >   ```script
