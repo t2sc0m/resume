@@ -301,7 +301,7 @@
   > - Apache Solr replication 設定/運用
   > - 物理サーバマネジメントの設定/運用 
   >   ```script
-  >   - HP : iLO , DELL : iDRAC
+  >   - HP : iLO , DELL : iDRAC , SM : ipmitool
   >   ```
   > - 現在運用中のサービス規模
   >   ```script
@@ -312,7 +312,7 @@
   >   ```
   > - GlusterFSの検証/導入/構築/運用
   >   ```script
-  >   - 紹介資料作成して社内に発表
+  >   - 紹介資料作成して社内に共有/教育
   >   - テストと本番用の環境設計/構築
   >   - 検証して本番に適用/運用
   >   ```
